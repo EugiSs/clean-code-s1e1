@@ -39,7 +39,7 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li, h2 {
   list-style: none;
 }
 input,button{
@@ -58,8 +58,7 @@ button:hover {
   color: #3a3a3a;
 }
 /* Heading */
-h3,
-label[for="new-task"] {
+h2 {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -83,9 +82,17 @@ input[type="text"] {
 input[type="text"]:focus {
   color: #333;
 }
+.hidden {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+}
 
 /* New Task */
-label[for="new-task"] {
+#topSectionForAddingElementToList h2 {
   display: block;
   margin: 0 0 20px;
 }
